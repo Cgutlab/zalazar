@@ -1,0 +1,49 @@
+/*
+ *
+ *Slider
+ *
+ */
+
+#caption-sliders{
+    width: 60%;
+    padding-left: 10%;
+ }
+
+#titulo-caption, #titulo-caption p{
+	font-size: 20px;
+	letter-spacing: 2;
+	font-weight: 300;
+}
+
+#descripcion-caption, #descripcion-caption p{
+	font-size: 45px;
+	line-height: 1.1;
+	font-family: 'Montserrat Semibold';
+}
+
+
+.informacion-div{
+	height: 247px;
+	overflow: hidden;
+}
+
+.titulo-caption, .titulo-caption p{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+.informacion-titulo-caption{
+	color: #FFFFFF;
+	font-family: 'Montserrat Semibold';
+	line-height: 180%;
+	font-size: 28px;
+}
+
+
+@media(max-width: 600px) {
+	#caption-sliders{
+		width: 100%;
+		padding-left: 0;
+		margin-left: -10%;
+    }
+}

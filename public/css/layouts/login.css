@@ -1,0 +1,14 @@
+#login-cuenta h5{
+	color: #595959;
+	font-size: 15px;
+}
+
+#login-password h6{
+	color: #b0b0b0;
+	font-size: 13px;
+	font-family: 'Montserrat Light'
+}
+
+.dropdown-content a:hover{
+	margin-top: 0 !important;
+}

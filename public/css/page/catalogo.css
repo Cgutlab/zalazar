@@ -1,0 +1,15 @@
+.card-title-catalogo{
+	color: #5D5D5D;
+	line-height: 128% !important;
+	font-size: 17px !important;
+}
+
+.card-content-catalogo{
+	border-bottom: 4px solid #3F5982;
+	border-left: 1px solid #e0dfdf;
+	border-right: 1px solid #e0dfdf;
+}
+
+.card-content-down-catalogo{
+	padding-top: 10px !important;
+}

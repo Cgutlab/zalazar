@@ -1,0 +1,134 @@
+
+
+.header-top{
+    min-height: 35px !important;
+    background: #F5F5F5;
+    height: 25% !important;
+    border-bottom: 3px solid #5E8AC3;
+}
+.header-top-ul{
+    margin-right: -20%;
+}
+
+.header-top-ul li, .header-top-ul li a{
+    color: #505050;
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+
+.header-top-ul li a:hover{
+    border: 0 !important;
+    margin-top: -1px;
+}
+
+#header{
+    background: #FFFFFF;
+    height: 150px;
+    font-family: 'Montserrat Bold';
+    margin-bottom: 3px;
+}
+
+#header i{
+    position: relative;
+    margin-top: 5px;
+}
+
+.header-top-ul li a:hover{
+    border: 0 !important;
+    margin-top: -4px
+}
+
+
+.brand-logo{
+    margin-left: 7%;
+    margin-top: 1%
+}
+
+.header-secciones{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 2%;
+    margin-right: -5%;
+}
+
+.header-secciones li a{
+    font-size: 14px;
+    color: #343D5B;
+    font-family: 'Montserrat';
+    padding: 10px 15px !important;
+    font-weight: 900;
+}
+
+
+.collapsible-body a{
+    font-size: 14px;
+    color: #595959;
+    font-family: 'Montserrat';
+    padding-left: 10%
+}
+
+nav ul a:hover{
+    background: none;
+    text-decoration: none !important;
+}
+
+
+.logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo>img {
+    vertical-align: middle;
+    margin-right: 20%
+}
+
+
+@media(max-width: 992px) {  
+    .brand-logo img{
+        margin-top: 3%;
+    }
+
+    #header{
+        height: 100px;
+    }
+}
+
+#seccion-active,#header ul a:hover{
+    background: transparent;
+    border-bottom: 5px solid #5C89C5;
+    margin-bottom: -5px;
+}
+
+.dropdown-content li a:hover, .dropdown-content li a.active{
+    border: 0 !important;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#buscador:focus:not([readoy]){
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+::placeholder { 
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Montserrat Semibold';
+    margin-top: 5px;
+}

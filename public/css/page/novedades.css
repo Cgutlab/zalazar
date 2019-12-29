@@ -1,0 +1,72 @@
+.titulo-tab-novedades{
+	color: #415E88 !important;
+	font-size: 15px !important;
+	background: #F3F3F3 !important;
+	font-weight: 600;
+	text-transform: capitalize !important;
+
+}
+
+#titulo-index-novedades, #titulo-show-novedades{
+	color: #5C89C5;
+	font-size: 23px;
+	font-weight: 900;
+}
+
+#titulo-index-novedades{
+	padding: 5%;
+}
+
+#descripcion-index-novedades, #descripcion-show-novedades{
+	color: #444444;
+	font-family: 'Montserrat Light';
+}
+
+#descripcion-show-novedades{
+	line-height: 223%;
+	font-weight: 600;
+	color: #595959;
+}
+
+#descripcion-index-novedades{
+	font-size: 15px;
+}
+
+#link-index-novedades i{
+	margin-top: 5%
+}
+
+#titulo-categorias{
+	color: #425E89;
+	font-size: 26px;
+	margin: 5%;
+	font-weight: 900;
+}
+
+#collection-novedades{
+	border: 0 !important;
+}
+
+
+#collection-novedades #collection-novedades-item{
+	border: 0 !important;
+	color: #595959
+	
+}
+
+#collection-novedades-item i{
+	position: relative;
+	top: 2px;
+}
+
+@media(max-width: 600px) {
+    .card-image{
+    	max-width: 100% !important;
+    }
+    .card-stacked{
+    	position: absolute !important;
+    }
+    .card.horizontal{
+    	margin-bottom: 50% !important;
+    }
+}

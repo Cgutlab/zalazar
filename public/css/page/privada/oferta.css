@@ -1,0 +1,9 @@
+.precio-anterior{
+	text-decoration: line-through;
+	font-weight: 300 !important;
+}
+
+.precio-actual{ 
+	font-size: 24px !important; 
+	color: #5C89C5 !important;
+}

@@ -1,0 +1,18 @@
+#clientes-collection a{
+	color: #646464;
+	font-weight: 900;
+}
+
+#titulo-cliente{
+	color: #5C89C5;
+	font-size: 15px;
+	line-height: 180%;
+}
+
+.icon-shop-green i{
+	color: #62D23E
+}
+
+.icon-shop i{
+	color: #3F5982 !important
+}

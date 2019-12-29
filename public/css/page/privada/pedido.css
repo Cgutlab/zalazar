@@ -1,0 +1,14 @@
+.pedidos-table th{
+	color: #425E89;
+	font-size: 13px;
+}
+
+.pedidos-table tr{
+	border-bottom: 2px solid #01275C;
+	background: #ECECEC;
+}
+
+#total{
+	font-size: 20px;
+	font-weight: 900;
+}
